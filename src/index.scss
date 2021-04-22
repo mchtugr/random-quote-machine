@@ -1,0 +1,64 @@
+$main-color: coral;
+$secondary-color: whitesmoke;
+body {
+  background-color: $main-color;
+  color: $secondary-color;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.quote-container {
+  width: 100vw;
+}
+#quote-box {
+  border-radius: 5px;
+  position: relative;
+  background-color: $secondary-color;
+  color: $main-color;
+  padding: 5%;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#new-quote {
+  background-color: $main-color;
+  color: $secondary-color;
+}
+
+#author {
+  margin: 20px auto;
+  text-align: right;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+.quote-icon {
+  margin-right: 10px;
+}
+
+.btn-container {
+  margin: auto 0;
+}
+.icons {
+  color: $main-color;
+}
+
+#tweet-quote :hover {
+  color: #00acee;
+}
