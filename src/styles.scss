@@ -22,6 +22,7 @@ code {
 
 .quote-container {
   width: 100vw;
+  padding: 10px;
 }
 #quote-box {
   border-radius: 5px;
@@ -31,7 +32,7 @@ code {
   padding: 5%;
   text-align: center;
   margin: 0 auto;
-  width: 50%;
+  max-width: 500px;
 }
 
 #new-quote {
@@ -61,4 +62,10 @@ code {
 
 #tweet-quote :hover {
   color: #00acee;
+}
+
+@media only screen and (max-width: 450px) {
+  * {
+    font-size: 12px;
+  }
 }
