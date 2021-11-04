@@ -1,4 +1,4 @@
-# You can preview the app [here](https://murtazaaylak.github.io/random-quote-machine/).
+# You can preview the app [here](https://mchtugr.github.io/random-quote-machine/).
 
 
 # Getting Started with Create React App
