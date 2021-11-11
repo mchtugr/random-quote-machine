@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Random Quote Machine
+=======
+# You can preview the app [here](https://mchtugr.github.io/random-quote-machine/).
+>>>>>>> a09c7e725799f5fb0b871710b65739b7a13d948c
 
 This project is coded for FreeCodeCamp frontend libraries project.
 
